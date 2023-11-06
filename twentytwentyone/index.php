@@ -14,6 +14,7 @@
  * @since Twenty Twenty-One 1.0
  */
 
+
 get_header(); ?>
 
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
