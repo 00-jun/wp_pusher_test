@@ -13,6 +13,7 @@ if($wpestate_options['content_class'] == "col-md-12"){
 }
 ?>
 
+
 <?php if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'archive' ) ) { ?>
     <div class="row content-fixed">
     <?php   include(locate_template('templates/breadcrumbs.php'));?>
