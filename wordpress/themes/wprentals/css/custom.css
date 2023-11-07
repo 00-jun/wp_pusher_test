@@ -1,0 +1,520 @@
+.iti {
+  width: 100%;
+}
+
+.loginrow span {
+  position: relative;
+  top: -16px;
+}
+
+.property-empty {
+  padding-left: 0;
+}
+
+.property-empty-btn {
+  padding-right: 0;
+}
+
+#add_property_empty {
+  cursor: pointer;
+  margin-bottom: 15px;
+  color: #fff;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 50px;
+  background: #51af6b;
+}
+
+.room_num_detail_option {
+  margin: 0 -15px;
+}
+
+.roomnum_input_val {
+  width: 50%;
+  padding-left: 15px;
+  float: left;
+  padding-right: 15px;
+}
+
+.has_calendar.rooms_icon select {
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #e7e9ef;
+  color: #8a8f9a;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #e7e9ef;
+  color: #8a8f9a;
+  position: relative;
+  opacity: 1;
+  padding-left: 45px;
+  display: block;
+  line-height: 1.6em;
+  background-image: none;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  height: 50px;
+  border-radius: 2px;
+  padding: 0px 13px 0px 13px;
+  margin: 0 0 20px;
+  outline: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #e7e9ef;
+  color: #8a8f9a;
+  margin-bottom: 15px;
+  padding-left: 45px;
+}
+
+.tabs__navigation {
+  border-bottom: 2px solid #c8c8c8;
+}
+
+.tabs__navigation:hover .tool-tabs__tab.active {
+  color: #000;
+  font-weight: 400;
+  background-color: #c8c8c8;
+}
+
+.tabs__navigation:hover .tool-tabs__tab.active:after {
+  width: 0;
+}
+
+.tabs__navigation:hover .tool-tabs__tab:hover.active {
+  color: #000;
+  font-weight: 500;
+}
+
+.tabs__navigation:hover .tool-tabs__tab:hover.active:after {
+  width: 100%;
+}
+
+.tabs__btn {
+  position: relative;
+  padding: 5px 15px;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.tabs__btn.active {
+  color: #fff;
+  font-weight: 400;
+  background-color: #c8c8c8;
+}
+
+.tabs__btn:hover {
+  color: grey;
+  font-weight: 500;
+}
+
+.tabs__btn:hover.active {
+  color: white;
+  font-weight: 500;
+}
+
+.tabs__content {
+  margin-top: 15px;
+}
+
+.tabs__body {
+  display: none;
+  font-size: 18px;
+}
+
+.tabs__body.active {
+  display: block;
+}
+
+#property-avalability-detail {
+  margin: 0 15px;
+}
+
+#property-avalability-detail .tabs_btn {
+  font-size: 20px;
+  padding: 0 10px 5px;
+  display: inline-block;
+}
+
+#property-avalability-detail .tabs_btn.active {
+  color: #f28b0c;
+}
+
+.calendar-actions .calendar-legend-reserved {
+  background: #45cd72;
+}
+/*  2023/6/11 デイユース開発 高橋（修正）--- */
+.calendar-actions .calendar-owner-reserved {
+  background: #45cd72;
+}
+
+/* .calendar-actions .calendar-owner-reserved {
+  background: #f28b0c;
+} */
+
+.select2-selection.select2-selection--multiple {
+  width: 100%;
+  padding: 8px 9px;
+  margin-bottom: 20px;
+  min-height: 50px;
+  font-size: 14px;
+  background-color: #fafafc;
+  border: 1px solid #f6f4ff;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+  color: #8a8f9a;
+  margin-bottom: 0;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+  margin: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: transparent;
+  border: 1px solid #d7d7d7;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: #f6f4ff;
+}
+
+.form-control.field_err {
+  border-color: red !important;
+}
+
+/* 2023/2/27 デイユース開発 高橋（追加）--- */
+#local_currency.field_err {
+  border-color: red;
+}
+
+/* 2023/2/27 デイユース開発 高橋（追加）--- */
+.add_option_wrapper.field_err {
+  border-color: red;
+}
+
+#prop_category_submit.field_err + span span {
+  border-color: red;
+}
+
+.wpestate_calendar.end_reservation,
+.wpestate_booking_class.end_reservation,
+.wpestate_calendar.start_reservation,
+.wpestate_booking_class.start_reservation {
+  background: transparent !important;
+}
+
+.login-alert.field_err {
+  background-color: #fb7266;
+  color: #ffffff;
+}
+
+.fix-bg-h p.error-h {
+  background-color: red;
+}
+
+.fix-bg-h {
+  padding: 0;
+  background: transparent;
+}
+
+.fix-bg-h p {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 15px;
+  width: 100%;
+  background-color: #51b355;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.list_detail_prop_チェックアウト時間,
+.list_detail_prop_チェックイン時間 {
+  color: #f28b0c;
+  font-size: 16px;
+}
+
+.list_detail_prop_チェックアウト時間 > span,
+.list_detail_prop_チェックイン時間 > span {
+  color: #f28b0c;
+  font-size: 18px;
+}
+.available_rooms_label {
+  margin-bottom: 10px;
+}
+.daterangepicker {
+  padding: 10px;
+}
+.daterangepicker .calendar-table td {
+  width: 45px;
+  height: auto;
+}
+.daterangepicker .drp-calendar {
+  max-width: 290px;
+}
+.daterangepicker .calendar-table td {
+  vertical-align: top;
+}
+.wpestate_show_price_calendar {
+  position: static;
+  padding: 0 !important;
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+  color: inherit;
+  min-width: 25px;
+  display: block !important;
+  font-size: 10px;
+  line-height: 8px;
+  pointer-events: none;
+}
+.wpestate_show_price_calendar::before {
+  display: none;
+}
+.wpestate_show_price_calendar::after {
+  display: none;
+}
+.daterangepicker .calendar-table td {
+  line-height: 20px;
+  font-size: 14px;
+}
+.wpestate_show_status_calendar {
+  font-size: 12px;
+  line-height: 18px;
+}
+.daterangepicker td.disabled {
+  text-decoration: none;
+}
+/*.daterangepicker td.disabled .wpestate_show_price_calendar::before {
+  content: '✖️';
+  width: auto;
+  height: auto;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  position: static;
+  margin-left: 0;
+  margin-bottom: 6px;
+  display: block;
+  color: red;
+}*/
+.daterangepicker td.disabled .wpestate_show_price_calendar {
+  display: none !important;
+}
+.daterangepicker td.disabled .wpestate_show_available_calendar::before {
+  content: '✖';
+  width: auto;
+  height: auto;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  position: static;
+  margin-left: 0;
+  margin-bottom: 6px;
+  display: block;
+  color: red;
+  font-size: 13px;
+  line-height: 8px;
+}
+
+.daterangepicker td.available.freetobook .wpestate_show_price_calendar::before {
+  content: '◯';
+  width: auto;
+  height: auto;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  position: static;
+  margin-left: 0;
+  margin-bottom: 6px;
+  font-weight: 700;
+  display: block;
+  color: #1d82ff;
+}
+
+.daterangepicker td.active.available.freetobook  .wpestate_show_price_calendar::before{
+    content: '◯';
+    width: auto;
+    height: auto;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    position: static;
+    margin-left: 0;
+    margin-bottom: 6px;
+    font-weight: 700;
+    display: block;
+    color: #ffffff;
+}
+
+
+.daterangepicker td.available.freetobook.room_booked_available .wpestate_show_price_calendar::before {
+  content: '△';
+  width: auto;
+  height: auto;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  position: static;
+  margin-left: 0;
+  margin-bottom: 6px;
+  font-weight: 700;
+  display: block;
+  color: #1d82ff;
+  font-size: 15px;
+}
+#booking_form_request .book_not_available.no_rooms_available {
+  display: block !important;
+}
+#booking_form_request #booking_form_request_mess.book_not_available {
+  display: block !important;
+}
+.wpestate_show_available_calendar span {
+  position: absolute;
+  padding: 2px;
+  background: #000;
+  top: 50%;
+  left: 50%;
+  font-size: 12px;
+  opacity: 0;
+  color: #fff;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+.daterangepicker td.available.freetobook:hover .wpestate_show_available_calendar span {
+  opacity: 1;
+}
+.booking-calendar-set .end_reservation {
+  background: #fff;
+}
+.booking-calendar-set .calendar-reserved.has_future {
+  pointer-events: visible;
+  cursor: pointer;
+}
+/*  2023/6/11 デイユース開発 高橋（修正）--- */
+.booking-calendar-set .calendar-reserved.start_reservation {
+  background: #45cd72 !important;
+}
+/* .booking-calendar-set .calendar-reserved.start_reservation {
+  background: #f28b0c !important;
+} */
+.booking-calendar-set .rentals_reservation {
+  display: none;
+  top: 0px;
+  min-height: 100%;
+  bottom: auto;
+  padding-bottom: 4px;
+  z-index: 2;
+}
+.booking_title_id {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.booking_ids {
+  line-height: 1.6;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+/* .booking_ids:hover {
+  color: #f28b0c;
+} */
+.booking_ids span {
+  font-size: 1.4em;
+  line-height: 1;
+  display: inline-block;
+}
+span.calendar_can_available {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+  color: #cbcdd0;
+  opacity: 1;
+  z-index: 1;
+}
+span.calendar_can_available:before {
+  content: '×';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -1px;
+  font-size: 20px;
+}
+.booking-calendar-wrapper-in .calendars-not-available {
+  background-color: #fd2d4f;
+  color: #fff;
+}
+span.not-available-selected {
+  color: #fd2d4f;
+}
+.wpestate_booking_class.off.disabled.calendar-reserved {
+  pointer-events: none !important;
+}
+.booking-calendar-set .calendar-reserved.has_past.start_reservation {
+  opacity: 0.5;
+}
+.calendar-legend-reserved.calendar-owner-notavailable {
+  background-color: #fd2d4f;
+}
+.has_past .calendar_can_available {
+  pointer-events: none;
+}
+.master_header {
+  z-index: 13000;
+}
+.property_menu_wrapper_hidden {
+  z-index: 12227;
+}
+
+/*  2023/6/11 デイユース開発 高橋（修正）--- */
+.booking-calendar-set .calendar-reserved:hover {
+  background-color: #45cd72 !important;
+}
+/* .booking-calendar-set .calendar-reserved:hover {
+  background-color: #f28b0c !important;
+} */
+
+/*  2023/6/11 デイユース開発 高橋（追加）--- */
+.booking-calendar-set .calendar-reserved {
+  background: #45cd72 !important;
+}
+
+.modal {
+  z-index: 105000;
+}
+@media (min-width: 564px) {
+  .daterangepicker .drp-calendar.left .calendar-table {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .list_detail_prop_チェックアウト時間,
+  .list_detail_prop_チェックイン時間 {
+    color: #f28b0c;
+    font-size: 15px;
+  }
+  .list_detail_prop_チェックアウト時間 > span,
+  .list_detail_prop_チェックイン時間 > span {
+    color: #f28b0c;
+    font-size: 16px;
+  }
+}
